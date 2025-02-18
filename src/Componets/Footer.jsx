@@ -49,15 +49,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="flex flex-col items-center sm:items-start">
             <h3 className="text-lg font-semibold text-white">Follow Us</h3>
-            <div className="flex justify-center sm:justify-start gap-4 mt-2 text-xl">
+            <div className="flex gap-4 mt-2 text-xl">
               <FaFacebook className="cursor-pointer hover:text-blue-500" />
               <FaTwitter className="cursor-pointer hover:text-blue-400" />
               <FaInstagram className="cursor-pointer hover:text-pink-500" />
               <FaLinkedin className="cursor-pointer hover:text-blue-600" />
             </div>
-            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="mt-4 flex flex-col sm:flex-row items-center sm:items-start justify-center gap-4">
               <button className="px-5 py-3 bg-white text-black rounded-md flex items-center gap-2 shadow-md hover:bg-gray-200 transition-all">
                 <FaApple /> App Store
               </button>
