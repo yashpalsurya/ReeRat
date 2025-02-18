@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -51,22 +52,20 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white">Follow Us</h3>
             <div className="flex justify-center sm:justify-start gap-4 mt-2 text-xl">
-              <i className="fab fa-facebook hover:text-blue-500 cursor-pointer"></i>
-              <i className="fab fa-twitter hover:text-blue-400 cursor-pointer"></i>
-              <i className="fab fa-instagram hover:text-pink-500 cursor-pointer"></i>
-              <i className="fab fa-linkedin hover:text-blue-600 cursor-pointer"></i>
+              <FaFacebook className="cursor-pointer hover:text-blue-500" />
+              <FaTwitter className="cursor-pointer hover:text-blue-400" />
+              <FaInstagram className="cursor-pointer hover:text-pink-500" />
+              <FaLinkedin className="cursor-pointer hover:text-blue-600" />
+            </div>
+            <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <button className="px-5 py-3 bg-white text-black rounded-md flex items-center gap-2 shadow-md hover:bg-gray-200 transition-all">
+                <FaApple /> App Store
+              </button>
+              <button className="px-5 py-3 bg-white text-black rounded-md flex items-center gap-2 shadow-md hover:bg-gray-200 transition-all">
+                <FaGooglePlay /> Play Store
+              </button>
             </div>
           </div>
-        </div>
-
-        {/* App Download Section */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="px-5 py-3 bg-white text-black rounded-md flex items-center gap-2 shadow-md hover:bg-gray-200 transition-all">
-            <i className="fab fa-apple"></i> App Store
-          </button>
-          <button className="px-5 py-3 bg-white text-black rounded-md flex items-center gap-2 shadow-md hover:bg-gray-200 transition-all">
-            <i className="fab fa-google-play"></i> Play Store
-          </button>
         </div>
 
         {/* Copyright Section */}
