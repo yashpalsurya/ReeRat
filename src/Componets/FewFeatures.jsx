@@ -1,5 +1,5 @@
 import React from "react";
-import featureImg from "../assets/mobiletwo.png"; // Replace with actual image path
+import featureImg from "../assets/Mobiletwo.png"; // Replace with actual image path
 import WrapperContainer from "../Layout/WrapperContainer";
 import PropertySection from "./PropertySection";
 
