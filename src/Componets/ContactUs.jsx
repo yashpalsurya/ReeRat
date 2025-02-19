@@ -34,10 +34,11 @@ function ContactForm() {
                   placeholder="First"
                   className="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 lg:mb-0"
                 />
+                
                 <input
                   type="text"
                   id="lastName"
-                  placeholder="Last"
+                  placeholder="Last name"
                   className="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 />
               </div>
@@ -61,7 +62,7 @@ function ContactForm() {
                 className="block text-gray-700 text-sm font-semibold mb-2"
                 htmlFor="message"
               >
-                Leave us a few words <span className="text-red-500">*</span>
+                Message <span className="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
